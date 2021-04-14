@@ -66,3 +66,37 @@ Download Jupyter Notebook (official tutorial [here](https://jupyter.org/install.
 2. Verify successful installation with: `jupyter notebook`
 3. End session: Press `cmd`+`C` on Mac, or `ctrl`+`C` on Windows.
 
+
+## The Task 
+
+The task for the Workshop will be to use optimization to find the best (most efficient) route for distributing COVID-19 vaccines to a list of adresses in Trondheim, Norway. 
+
+### Google Distance API & Distance Matrix
+In order to easily evaluate our routes, we need a quick way to get distances and expected driving-time between different points on a map. To do this, we will use the Google Distance API. In order to use this, you will need to create a (free) user on googles developers site to obtain an API key. However, for the sake of this workshop, if you do not want to create your own user, we have provided a copy of the distance matrix you will get from the API (distance_matrix.txt). 
+
+Du kan enkelt importere denne som en numpy-array i python ved å kjøre følgende kodesnutt: 
+>>import pickle
+>>filehandler = open('distance_matrix.txt', 'rb') 
+>>distance_matrix = pickle.load(filehandler)
+
+### Solving the optimization problem 
+If you have not done so by now, you can open the task-file (Brain.ai Workshop tasks.ipynb) in jupyter notebook. 
+This will take you trough all the steps of solving the task, including: 
+1. Creating a baseline solution
+2. Solving the task with a genetic optimization algorithm 
+3. Solving the task using Google Optimization Tools
+
+You will see that we have provided a pretty thorough frame for all the code that you'll need to write, so you'll hopefully find it easy to follow the task from start to finish. Note however, that this is just one way of doing things - there are many more! So if you want to go completely rougue and write all the code for yourself, thats fine too! 
+
+### Proposed Solution 
+In "Brain.ai Workshop solution.ipynb" you will find a proposed solution for the Workshop! Feel free to compare your code with our approach. But do keep in mind that there are many ways to do things, so just because your could deviates from ours, doesn't mean it's any worse. It could even be better!
+
+### Extra Challenges
+At the bottom of the task-sheet you will find a list of extra challenges that might be fun to do if you like the task! 
+We have, however, not made proposed solutions for these tasks. 
+
+### HAVE FUN!
+#### BRAIN NTNU & VISMA
+
+
+
