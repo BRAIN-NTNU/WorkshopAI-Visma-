@@ -19,15 +19,19 @@ From here, you should select the latest stable installer for download (Python 3.
 
 If you have a newer version of Python3, you probably already have “pip” installed. 
 If you are uncertain whether or not pip is installed on you computer, you can run the following command on your mac/unix system terminal:
-  >> python -m pip --version
+>> python -m pip --version
 
 Likewise, you can check your windows system for pip by running the following command in your cmd:
-	>> py -m pip --version
+>> py -m pip --version
 
 If you have pip installed, you should see something like:
-	>> pip X.Y.Z from ...\site-packages\pip (python X.Y)
+>> pip X.Y.Z from ...\site-packages\pip (python X.Y)
 
-Note that if you have several versions of python installed on your computer, you might need to run “python3 -m pip --version” or “py3 -m pip --version” to instruct what version of pip you are checking for. 
+Note that if you have several versions of python installed on your computer, you might need to run 
+>> pythonX -m pip --version
+or 
+>> pyX -m pip --version
+to instruct what version (X) of pip you are checking for. 
 
 If you do not have pip installed, you should be able to install pip easily by following the instructions inder “installing with get-pip.py” for your operating system <a href="https://pip.pypa.io/en/stable/installing/">here</a>
 
