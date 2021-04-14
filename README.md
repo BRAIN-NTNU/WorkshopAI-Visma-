@@ -29,8 +29,11 @@ If you have pip installed, you should see something like:
 
 Note that if you have several versions of python installed on your computer, you might need to run 
 >> pythonX -m pip --version
-or 
+
+or
+
 >> pyX -m pip --version
+
 to instruct what version (X) of pip you are checking for. 
 
 If you do not have pip installed, you should be able to install pip easily by following the instructions inder “installing with get-pip.py” for your operating system <a href="https://pip.pypa.io/en/stable/installing/">here</a>
